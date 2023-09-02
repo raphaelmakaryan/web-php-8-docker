@@ -25,7 +25,7 @@ function draw_header($page_name, $css_links = NULL, $js_links = NULL)
   <html>
 
   <head>
-    <title>Adopt A Pet</title>
+    <title>InfoNest</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -69,6 +69,7 @@ function draw_header($page_name, $css_links = NULL, $js_links = NULL)
 
     <header class="site-bar">
       <a href="/" class="logo"><img src="../css/images/dog.svg" /></a>
+      <h1 class="title"> On va faire genre que ce site est le site InfoNest </h1>
       <ul class="upper-ul">
         <?php if ($profile != NULL) { ?>
           <li>

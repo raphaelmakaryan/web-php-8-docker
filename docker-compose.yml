@@ -1,0 +1,9 @@
+services:
+  web:
+    image: wyveo/nginx-php-fpm:php81
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html
+
+

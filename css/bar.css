@@ -24,6 +24,14 @@
   place-self: center;
 }
 
+.site-bar .title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  place-self: center;
+}
+
 .site-bar .logo img {
   width: 4.6em;
 }
