@@ -34,3 +34,13 @@ Listening on http://localhost:8080
 ```
 Open your web browser and navigate to `http://localhost:8080` to see the project running.
 
+
+# Mise en place de docker
+
+## Commande de build
+
+`sudo docker build -f docker/dockerfile -t webphp8 .`
+
+## Commande de lancement
+
+`̀sudo docker run -d -p 8081:8081 webphp8`
